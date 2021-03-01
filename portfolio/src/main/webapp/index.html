@@ -2,18 +2,27 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Andrea Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
+      <div class="topNavigationBar">
+        <a class="active" href="./index.html">Andrea Ramírez Portfolio</a>
+        <a href="./gallery.html">gallery</a>
+        <a href="#projects">projects</a>
+      </div>
+      <div id="content">
+        <div>
+            <p style="float: left;"><img src="/images/andrearamirez.jpg" height="400px" width="400px" border="10px"></p>
+            <h1>Andrea Ramírez's Portfolio</h1>
+            <h2>Welcome to my Portfolio</h2>
+            <p>I am a Computer Science junior at Tecnológico de Monterrey! I am currently 21 years old. This is a change</p>
+        </div>
+        <p>Click <a href="/hello">here</a> to see content created by server code.</p>
+        <p>Click here to get a random message:</p>
+        <button onclick="addRandomGreeting()">Hello</button>
+      </div>
       <div id="greeting-container"></div>
-    </div>
   </body>
 </html>
