@@ -1,9 +1,11 @@
 
+
 #content {
   margin-left: auto;
   margin-right: auto;
   width: auto;
 }
+
 
 
 #greeting-container {
@@ -15,30 +17,36 @@ body {
 }
 
 h1 {
-  margin-left: auto;
-  margin-right: auto;
   font-family: helvetica;
-  color: #00a6a5;
+  color: #007372;
   text-align: center;
 }
 
 h2{
+
     font-family: geneva;
+    text-align: center;
 }
 
 p {
   font-family: geneva;
-  font-size: 20px;
-  color: red;
-  /*text-align: left;*/
+  font-size: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: black;
+  text-align: center;
 }
 
 img {
   display: block;
+  /*margin-left: 30;*/
+  /*margin-right: auto;*/
+  margin-top: 15px;
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  /*width: 50%;*/
 }
 
 .topNavigationBar {

@@ -17,7 +17,7 @@
  */
 function addRandomGreeting() {
   const greetings =
-      ['I have three nationalities', 'I have never eaten an orange', 'Fun fact #3', 'Fun fact#4'];
+      ['I have three nationalities', 'I have never eaten an orange', 'An UX Designer was the first person that encouraged me to study CS', 'I am a Gryffindor! :)'];
 
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
