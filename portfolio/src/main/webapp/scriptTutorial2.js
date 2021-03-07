@@ -1,4 +1,4 @@
-/** Fetches the current date from the server and adds it to the page. */
+/** Fetches the hardcoded message from the server and adds it to the page. */
 async function showHardCodedString() {
   const responseFromServer = await fetch('/hello');
   const textFromResponse = await responseFromServer.text();
