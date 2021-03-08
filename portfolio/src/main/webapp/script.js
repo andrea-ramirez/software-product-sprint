@@ -19,7 +19,7 @@ function addRandomFunFact() {
   const funFacts =
       ['I have three nationalities', 'I have never eaten an orange', 'An UX Designer was the first person that encouraged me to study CS', 'I am a Gryffindor! :)'];
 
-  // Pick a random greeting.
+  // Pick a random fun fact from the array.
   const fact = funFacts[Math.floor(Math.random() * funFacts.length)];
 
   // Add it to the page.
