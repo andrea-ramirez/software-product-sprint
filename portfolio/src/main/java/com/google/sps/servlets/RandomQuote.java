@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 
 
 /** Handles requests sent to the /randomMessage URL. */
-@WebServlet("/randomMessage")
-public class RandomMessageServlet extends HttpServlet {
+@WebServlet("/randomQuote")
+public class RandomQuote extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
